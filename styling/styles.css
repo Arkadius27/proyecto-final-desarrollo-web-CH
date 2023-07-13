@@ -154,4 +154,25 @@ footer {
 
 .tecnologias-text li span {
   color: #3E4044;
+}
+
+.empresa h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.empresa h2 {
+  color: #543EA3;
+}
+
+.empresa p {
+  font-size: 1.5rem;
+}
+
+.empresa h3 {
+  font-size: 1.5rem;
+}
+
+.empresa li {
+  font-size: 1.5rem;
 }/*# sourceMappingURL=styles.css.map */
