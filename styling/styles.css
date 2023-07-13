@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../media/servers-alt-2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  background-color: #FFFFFF;
+  height: 80px;
+}
+
+.navbar a {
+  color: #3E4044;
+  font-weight: 700;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+@media (max-width: 991px) {
+  .sidebar {
+    background-color: rgba(255, 255, 255, 0.8);
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+  }
+  .nav-link {
+    color: #FFFFFF;
+  }
+}
+.mainHomeContainer {
+  background-color: #FFFFFF;
+  margin-top: 80vh;
+  height: -moz-fit-content;
+  height: fit-content;
+  color: #3E4044;
+}
+
+.pqContratar h3 {
+  font-weight: 700;
+}
+
+.razonesContratar p {
+  margin: 15px;
+  color: #3E4044;
+  font-weight: 400;
+}
+
+.beneficios {
+  background: #543EA3;
+}
+
+.beneficios h2 {
+  font-size: 3rem;
+}
+
+.beneficios h3 {
+  font-size: 1.5rem;
+}
+
+.card {
+  background-color: #2A2754;
+  height: 300px;
+}
+
+.card-body {
+  color: #FFFFFF;
+}
+
+.card-img-top {
+  height: 70px;
+  width: 120px;
+}
+
+.card-title {
+  font-weight: 700;
+}
+
+footer {
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #2A2754;
+  color: #FFFFFF;
+}
+
+.footer-img img {
+  height: 190px;
+}
+
+.footer-mid {
+  display: block;
+  margin: auto;
+}
+
+.footer-text {
+  display: block;
+  margin: auto;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.footer-links p {
+  margin: 0 5px 0 5px;
+}
+
+.footer-social {
+  font-size: 1.25rem;
+}
+
+.footer-social i {
+  margin-left: 10px;
+}
+
+.titulo-soluciones {
+  color: #FFFFFF;
+  margin-bottom: 10vh;
+}
+
+.main-soluciones {
+  background-color: #543EA3;
+}
+
+.soluciones-text {
+  color: #FFFFFF;
+}
+
+.main-infraestructura {
+  background-color: #FFFFFF;
+}
+
+.tecnologias {
+  margin: 0 auto;
+}
+
+.tecnologias-text h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.tecnologias-text li {
+  color: #543EA3;
+}
+
+.tecnologias-text li span {
+  color: #3E4044;
+}/*# sourceMappingURL=styles.css.map */

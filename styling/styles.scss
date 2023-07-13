@@ -1,0 +1,120 @@
+// --- GENERAL ---
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+$baseColor: #543EA3;
+$accentColor: #2A2754;
+$backgroundColor: #FFFFFF;
+$textColor: #3E4044;
+
+body {
+    background: url(../media/servers-alt-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+// --- NAVBAR ---
+.navbar {
+    background-color: $backgroundColor;
+    height: 80px;
+}
+.navbar a {
+    color: $textColor;
+    font-weight: 700;
+}
+.navbar-brand img {
+    height: 50px;
+}
+@media (max-width: 991px) {
+    .sidebar {
+        background-color: rgba($backgroundColor, 0.8);
+        backdrop-filter: blur(5px);
+    }
+    .nav-link {
+        color: $backgroundColor;
+    }
+}
+
+// --- MAIN ---
+.mainHomeContainer {
+    background-color: #FFFFFF;
+    margin-top: 80vh;
+    height: fit-content;
+    color: $textColor;
+}
+
+// Por que contratar
+.pqContratar h3 {
+    font-weight: 700;
+}
+.razonesContratar p {
+    margin: 15px;
+    color: $textColor;
+    font-weight: 400;
+}
+
+// Beneficios
+.beneficios {
+    background: $baseColor;
+}
+.beneficios h2 {
+    font-size: 3rem;
+}
+.beneficios h3 {
+    font-size: 1.5rem;
+}
+
+.card {
+    background-color: $accentColor;
+    height: 300px;
+}
+.card-body {
+    color: #FFFFFF;
+}
+.card-img-top {
+    height: 70px;
+    width: 120px;
+}
+.card-title {
+    font-weight: 700;
+}
+
+// --- FOOTER ---
+footer {
+    height: fit-content;
+    background-color: $accentColor;
+    color: $backgroundColor;
+}
+
+.footer-img img {
+    height: 190px;
+}
+
+.footer-mid {
+    display: block;
+    margin: auto;
+}
+
+.footer-text {
+    display: block;
+    margin: auto;
+}
+.footer-links a {
+    text-decoration: none;
+    color: $backgroundColor;
+}
+.footer-links p {
+    margin: 0 5px 0 5px;
+}
+.footer-social {
+    font-size: 1.25rem;
+}
+.footer-social i {
+    margin-left: 10px;
+}
+
