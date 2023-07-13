@@ -130,3 +130,22 @@ footer {
 .soluciones-text {
     color: $backgroundColor;
 }
+
+// --- INFRAESTRUCTURA ---
+.main-infraestructura {
+    background-color: $backgroundColor;
+}
+
+.tecnologias {
+    margin: 0 auto;
+}
+.tecnologias-text h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.tecnologias-text li {
+    color: $baseColor;
+}
+.tecnologias-text li span {
+    color: $textColor;
+}

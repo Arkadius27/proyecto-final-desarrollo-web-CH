@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" type="image/x-icon" href="../media/favicon-sds.ico">
+
+    <!-- ***NORMALIZING*** -->
+        <link rel="stylesheet" href="./styling/normalize.css">
+    <!-- ***BOOTSTRAP 5.3*** -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- ***GOOGLE FONTS - ROBOTO 100L, 400R, 500M & 700B*** -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+    <!-- ***STYLES*** -->
+        <link rel="stylesheet" href="./styling/styles.css">
+    
+        <title>Servidores del Sur</title>
+</head>
+
+<body class="vh-100">
+    <!-- /// Navbar /// -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="index.html"><img src="./media/logo.png" alt="logo"></a>
+            <!--  Toggle -->
+            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Sidebar -->
+            <div class="sidebar offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <!-- Sidebar - Header -->
+                <div class="offcanvas-header text-white border-bottom border-2">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU</h5>
+                    <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <!-- Sidebar - Body -->
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="soluciones.html">SOLUTIONS</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="infraestructura.html">INFRASTRUCTURE</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="empresa.html">COMPANY</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="contacto.html">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- /// Main /// -->
+    <main class="mainHomeContainer container-fluid pt-5 pb-5 main-infraestructura">
+        <!-- Title -->
+        <div class="container-fluid">
+            <div class="container infraestructura-title text-center mb-5">
+                <h1>LATEST TECH AT YOUR DISPOSAL</h1>
+                <p>We are in the Antel Data Center. The only one in Latin America built under the 942-Tier III regulation. We provide maximum guarantees for the continuity of business and operations and security of information assets. Excellent quality infrastructure, Datacenter in Uruguay. We have uninterrupted operation, professional technical attention, 365 days a year, 24 hours a day. Faster and more direct routes in communications, transmitting data at maximum speed.</p>
+            </div>
+            <!-- Energia -->
+            <h2 class="text-center mb-4">Assured Energy Continuity</h2>
+            <div class="container row tecnologias mb-5">
+                <div class="col-12 col-lg-5 tecnologias-img mb-3">
+                    <img class="img-fluid" src="./media/infraestructura-energia.jpg" alt="energia">
+                </div>
+                <div class="col-12 col-lg-1"></div>
+                <div class="col-12 col-lg-6 tecnologias-text">
+                    <h3>Energy System</h3>
+                    <br>
+                    <p>Uninterrupted operation of the data center and servers, available 365 days a year, 24 hours a day. We provide the greatest confidence, ensured by independent power lines and redundant services.</p>
+                    <ul>
+                        <li><span>Power input to duplicate transformers.</span></li>
+                        <br>
+                        <li><span>UPS's in n+1 configuration.</span></li>
+                        <br>
+                        <li><span>Duplicate generators Fuel tanks for 72hrs.</span></li>
+                        <br>
+                        <li><span>Power supply to the racks through two independent branches.</span></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Seguridad -->
+            <h2 class="text-center mb-5">High Level Security</h2>
+            <div class="container row tecnologias mb-5">
+                <div class="col-12 col-lg-6 tecnologias-text text-end">
+                    <h3>Security System</h3>
+                    <br>
+                    <p>The information of your company protected with maximum security. Our Datacenter has a fire detection system, closed circuit cameras, independent power lines and redundant services.</p>
+                    <ul>
+                        <div class="d-flex flex-row-reverse"><span>Security Guard and Firefighters 24/7.</span><li></li></div>
+                        <br>
+                        <div class="d-flex flex-row-reverse"><span>Restricted circulation areas based on user profiles.</span><li></li></div>
+                        <br>
+                        <div class="d-flex flex-row-reverse"><span>Armored lock system for entry.</span><li></li></div>
+                        <br>
+                        <div class="d-flex flex-row-reverse"><span>Access control system and security cameras in all areas of the Data Center.</span><li></li></div>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-1"></div>
+                <div class="col-12 col-lg-5 tecnologias-img mb-3">
+                    <img class="img-fluid" src="./media/infraestructura-seguridad.jpg" alt="seguridad">
+                </div>
+            </div>
+            <div class="container row tecnologias mb-5">
+                <div class="col-12 col-lg-5 tecnologias-img mb-3">
+                    <img class="img-fluid" src="./media/infraestructura-incendios.jpg" alt="incendio">
+                </div>
+                <div class="col-12 col-lg-1"></div>
+                <div class="col-12 col-lg-6 tecnologias-text">
+                    <h3>Fire detection & Extinction</h3>
+                    <br>
+                    <p>Focus IT human capital on core business activities, not infrastructure deployment and maintenance.</p>
+                    <ul>
+                        <li><span>VESDA (Very Early Smoke Detection Apparatus)</span></li>
+                        <br>
+                        <li><span>Early smoke detection via laser system.</span></li>
+                        <br>
+                        <li><span>FM200</span></li>
+                        <br>
+                        <li><span>Extinction by Gas. • Extinction levels in less than 10s • Reduces damage to assets</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container row tecnologias mb-5">
+                <div class="col-12 col-lg-6 tecnologias-text text-end">
+                    <h3>Powerful AC Refrigeration</h3>
+                    <br>
+                    <p>Be able to focus IT human capital towards the core activities of your business and not the deployment and maintenance of the infrastructure.</p>
+                    <ul>
+                        <div class="d-flex flex-row-reverse"><span>Injection of cold air by technical floor.</span><li></li></div>
+                        <br>
+                        <div class="d-flex flex-row-reverse"><span>Redundant power supply.</span><li></li></div>
+                        <br>
+                        <div class="d-flex flex-row-reverse"><span>Precision air conditioners with temperature and humidity control.</span><li></li></div>
+                        <br>
+                        <div class="d-flex flex-row-reverse"><span>Controllers and Outdoor Units in N+1 configuration.</span><li></li></div>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-1"></div>
+                <div class="col-12 col-lg-5 tecnologias-img mb-3">
+                    <img class="img-fluid" src="./media/infraestructura-pasillos.jpg" alt="pasillos">
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- /// Footer /// -->
+    <footer class="container-fluid mt-auto pt-3 pb-3">
+        <div>
+            <div class="row">
+                <div class="col-12 col-md-5 footer-img text-center text-md-start">
+                    <img src="./media/logo-alt.png" alt="logo">
+                </div>
+                
+                <div class="col-12 col-md-2 footer-mid text-center">
+                    <p>Servidores del Sur ®, 2023</p>
+                </div>
+                
+                <div class="col-12 col-md-5 footer-text">
+                    <p class="text-center text-md-end"><strong>Servidores del Sur</strong> - All rights reserved</p>
+                    <div class="footer-links text-center text-md-end">
+                        <a href="#">EULA |</a>
+                        <a href="#"> Privacy |</a>
+                        <a href="#"> Terms and Conditions</a>
+                    </div>
+                    <div class="footer-social text-center text-md-end mt-3">
+                        <a href="#"><i class="fa-solid fa-phone" style="color: #ffffff;"></i></a>
+                        <a href="mailto: example@mail.com"><i class="fa-solid fa-envelope" style="color: #ffffff;"></i></a>
+                        <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ***FONTAWSOME*** -->
+    <script src="https://kit.fontawesome.com/eba303e30d.js" crossorigin="anonymous"></script>
+    <!-- ***BS SCRIPT BUNDLE*** -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
