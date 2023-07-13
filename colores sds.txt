@@ -1,7 +1,0 @@
-COLORES SdS
-
-Azul base: #008EFF
-
-Gris Oscuro (texto): #3E4044
-
-Blanco base: #FFFFFF
